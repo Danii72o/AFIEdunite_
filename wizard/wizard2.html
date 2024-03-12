@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+      
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Candal|Lora" rel="stylesheet">
+      
+        <!-- Custom Styling -->
+        <link rel="stylesheet" href="/css/style.css">
+
+
+        <title>Edunite - Wizard 2</title>
+    </head>
+    
+    <body>
+        <header>
+            <div class="logo">
+                <img src="/images/eu_logo.png" class="logo-image">
+            </div>
+            <i class="fa fa-bars menu-toggle"></i>
+            <UL class="nav">
+                <li><a href="/home.html">About</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Forum</a></li>
+                <li><a href="#">Pricing</li>
+            </UL>
+            <div class="navbar-buttons">
+                <div>
+                <a href="/login.html"><button class="btn login">Log In</button>
+                </div>
+                <div>
+                <a href="/registration.html"><button class="btn signup">Sign Up</button></a>
+                </div>
+              </div> 
+        </header>
+
+        <main>
+            <h5>Choose a field of study that interests you.</h5>
+            
+
+            <div>
+                <label></label>
+                <select name="topic" class="text-input">
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Medicine">Medicine</option>
+                    <option value="Engineering">Engineering</option>
+                    <option value="Business Administration">Business Administration</option>
+                    <option value="Psychology">Psychology</option>
+                    <option value="Education">Education</option>
+                    <option value="Economics">Economics</option>
+                    <option value="Sociology">Sociology</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="progress">
+                <div class="progress-bar" id="myProgressBar" style="width: 0;"></div>
+              </div>
+            <section id="progress-footer">
+                <div class="back-button">
+                    <a href="wizard1.html"><i class="fa fa-arrow-left"></i> previous</a>
+                </div>
+                <progress value="2" max="6"></progress>
+                <div class="next-button">
+                    <a href="wizard3.html">next <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

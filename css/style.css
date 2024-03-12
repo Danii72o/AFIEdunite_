@@ -275,7 +275,77 @@ body {
     font-size: 40px;
     font-weight: bolder;
 }
+main {
+    margin-top: 70px;
+    margin-left: 200px;
+    padding: 10px;
+    width: 70%;
+    font-size: 30px;
+    background: rgb(241, 241, 241);
+    box-shadow: 1rem 1rem 1rem -1rem #393e39;
+    border-radius: 20px;
+}
+main p {
+    font-size: 30;
+}
+main p {
+    font-size: 20px;
+}
 
+main form {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+main section {
+    margin-top: 90px; 
+}
+
+main progress{
+    margin-left: 20%;
+    background:rgb(255, 255, 255);
+
+}
+main .text-input{
+    width: 40%;
+    font-size: 20px;
+    border-radius: 0px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.back-button {
+    padding: .5rem 1rem;
+    background: #0A6800;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: .1rem;
+    font-size: 1.08em;
+    font-family: 'Arial', serif;
+}
+.back-button:hover {
+    background: #108f02;
+}
+main section .back-button {
+    float: left; 
+    font-size: 15px;
+}
+
+.next-button {
+    padding: .5rem 1rem;
+    background: #0A6800;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: .1rem;
+    font-size: 1.08em;
+    font-family: 'Arial', serif;
+}
+.next-button:hover {
+    background: #108f02;
+}
+main section .next-button {
+    float: right; 
+    font-size: 15px;
+}
 .content .main-content {
     width: 100%;
     float: left;
