@@ -3,11 +3,81 @@ header {
   }
   header .logo{
     margin-left: 0px;
+    border: 1px solid red;
   }
   header ul {
     float: right;
+    width: 80%;
     margin-right: 20px;
+    border: 1px solid red
   }
+header * {
+    color: #000000;
+}
+header .logo {
+    width: 200px;
+    float: left;
+    height: inherit;
+    margin-left: 2em;
+}
+
+header .logo .logo-image {
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 100%;
+    height: 64px;
+}
+
+header .logo-text span {
+    color: #0A6800;
+    font-size: 1.3em;
+}
+
+header ul {
+    float: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+header ul li {
+    margin-left: 60px;
+    float: left;
+    position: relative;
+}
+
+header ul li ul {
+    position: absolute;
+    top: 66px;
+    right: 0px;
+    width: inherit;
+    display: none;
+    z-index: 88888;
+}
+header ul li:hover ul,
+header ul li ul:focus-within {
+    display: block;
+}
+header ul li ul li {
+    width: 100%;
+}
+
+header ul li ul li a {
+    padding: 10px;
+    font-size: .9em;
+    background-color: rgb(255, 255, 255);
+    color: #0A6800;
+}
+header .navbar-buttons {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px; /* Adjust margin-right to move the buttons */
+    display: flex;
+  }
+  
+header .navbar-buttons div {
+    margin-right: 10px; /* Adjust margin-right to separate the buttons */
+}
   
   .admin-wrapper {
     display: flex;
@@ -30,26 +100,28 @@ header {
 }
   
   .admin-wrapper .left-sidebar {
-    flex: 2;
+    width: 220px;
     height: 100%;
-    background: #108f02;
+    background: #ffffff;
+    border: 1px solid rgb(224, 224, 224);
   }
   
   .admin-wrapper .left-sidebar ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
-    color: gainsboro;
+    color: rgb(0, 0, 0);
   }
   
   .admin-wrapper .left-sidebar ul li a {
-    padding: 18px;
+    padding: 30px;
     display: block;
-    border-bottom: 1px solid #e7dfe3;
+
   }
   
   .admin-wrapper .left-sidebar ul li a:hover {
     background: #108f02;
+    color: whitesmoke;
   }
   
   .admin-wrapper .admin-content {

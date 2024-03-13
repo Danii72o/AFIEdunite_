@@ -138,6 +138,7 @@ header ul li ul li a {
     color: #0A6800;
 }
 header .navbar-buttons {
+    list-style: none;
     float: right;
     margin-top: 10px;
     margin-right: 10px; /* Adjust margin-right to move the buttons */
@@ -502,6 +503,89 @@ main section .next-button {
     transition: all 0.3s;
 }
 
+/* Dashboard Sidebar */
+header .notify-button {
+    padding-right: 15px;
+    list-style: none;
+    float: right;
+    margin-top: 15px;
+    margin-right: 50px; /* Adjust margin-right to move the buttons */
+    display: flex;
+    font-size: 20px;
+  }
+ .notify-button:hover {
+    color: #108f02;
+    transition: all .3s;
+  }
+  header .user-button {
+    padding-right: 15px;
+    list-style: none;
+    float: right;
+    margin-top: 15px;
+    margin-right: 50px; /* Adjust margin-right to move the buttons */
+    display: flex;
+    font-size: 20px;
+  }
+  header .notify-button:hover {
+    color: #108f02;
+    transition: all .3s;
+  }
+.admin-wrapper {
+    display: flex;
+    height: calc(100% - 66px);
+  }
+
+.btn {
+    padding: .5rem 1rem;
+    background: #108f02;
+    color: white;
+    border: 1px solid #108f02;
+    border-radius: none;
+    font-size: 1.08em;
+    font-family: 'Arial', serif;
+}
+
+.btn:hover {
+    color: white !important;
+    background: #108f02;
+}
+  
+  .admin-wrapper .left-sidebar {
+    width: 220px;
+    height: 100%;
+    background: #ffffff;
+    border: 1px solid rgb(224, 224, 224);
+  }
+  
+  .admin-wrapper .left-sidebar ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .admin-wrapper .left-sidebar ul li a {
+    padding: 30px;
+    display: block;
+
+  }
+  
+  .admin-wrapper .left-sidebar ul li a:hover {
+    background: #108f02;
+    color: whitesmoke;
+  }
+  
+  .admin-wrapper .admin-content {
+    flex: 8;
+    height: 100%;
+    padding: 40px 100px 100px;
+    overflow-y: scroll;
+  }
+  .admin-content .page-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
 /* Auth Pages */
 
 .auth-content {
