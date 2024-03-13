@@ -14,7 +14,7 @@ $(document).ready(function() {
       if (email === "user@example.com" && password === "password") {
         alert("Login successful!");
         // Redirect to the dashboard or home page
-        window.location.href = "/dashboard.html";
+        window.location.href = "/dash.html";
       } else {
         alert("Invalid email or password. Please try again.");
       }
