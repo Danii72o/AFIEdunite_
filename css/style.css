@@ -107,14 +107,15 @@ header ul {
     margin: 0px;
     padding: 0px;
     list-style: none;
+
 }
 
 header ul li {
     margin-left: 60px;
     float: left;
     position: relative;
-}
 
+}
 header ul li ul {
     position: absolute;
     top: 66px;
@@ -207,7 +208,6 @@ body {
 
     overflow: hidden;
     padding: 10px 0px 10px 0px;
-    border: 1px solid red;
 }
 
 .post-slider .post-wrapper .post {
@@ -276,29 +276,56 @@ body {
     font-size: 40px;
     font-weight: bolder;
 }
+
+/* Wizard 1 Styling */
+
 main {
-    margin-top: 70px;
+    margin-top: 60px;
     margin-left: 200px;
-    padding: 10px;
+    padding: 30px;
     width: 70%;
     font-size: 30px;
     background: rgb(241, 241, 241);
     box-shadow: 1rem 1rem 1rem -1rem #393e39;
     border-radius: 20px;
+
+}  
+ header ul li {
+    margin-left: 60px;
+    float: left;
+    position: relative;
 }
-main p {
-    font-size: 30;
+
+main h7 {
+    margin-top: 25px;
+    font-size: 15;
+    font-weight: lighter;
+ 
 }
 main p {
     font-size: 20px;
+    color:rgb(107, 107, 107)
 }
 
 main form {
     font-size: 20px;
-    margin-top: 20px;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
+   
 }
+main form input {
+    margin-bottom: 6px;
+    padding: 5px;
+ 
+}
+main form label {
+    font-size: 20px;
+    display: block;
+    margin-top: -25px;
+    margin-left: 30px;
+    margin-bottom: 3px;
 
+}
 main section {
     margin-top: 90px; 
 }
@@ -347,11 +374,126 @@ main section .next-button {
     float: right; 
     font-size: 15px;
 }
+
+/* Wizard 3 */
+.wizard-selection {
+    margin-top: 60px;
+    margin-left: 200px;
+    padding: 30px;
+    width: 70%;
+    font-size: 30px;
+    background: rgb(241, 241, 241);
+    box-shadow: 1rem 1rem 1rem -1rem #393e39;
+    border-radius: 20px;
+}  
+
+.wizard-selection h7 {
+    margin-top: 25px;
+    font-size: 15;
+    font-weight: lighter; 
+}
+.wizard-selection p {
+    font-size: 20px;
+    color:rgb(107, 107, 107);
+}
+
+.wizard-selection form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 40px;
+    font-size: 20px;   
+}
+
+.wizard-selection form input,
+.wizard-selection form textarea {
+    font-size: medium;
+    margin-bottom: 30px; /* Add space below each input element */
+    padding: 5px; 
+    background-color: #fdfdfd;
+    border-radius: 10px;;
+    border: none;
+}
+.wizard-selection form input:hover {
+    color:rgb(50, 164, 1);
+
+}
+.wizard-selection form label {
+    margin-bottom: 5px;
+}
+.wizard-selection #icon {
+    font-size: 60px;
+
+}
+.wizard-selection form button {
+    text-align: center;
+    height: 180px;
+    width: 180px;
+    background-color: #fdfdfd;
+    border-radius: 10px;;
+    border: none;
+    margin-top: 3px;
+    margin: 20px;
+    padding: 10px; 
+}
+.wizard-selection form button:hover {
+    color:rgb(50, 164, 1)
+}
+main section {
+    margin-top: 90px; 
+}
+
+main progress{
+    margin-left: 20%;
+    background:rgb(255, 255, 255);
+
+}
+main .text-input{
+    width: 40%;
+    font-size: 20px;
+    border-radius: 0px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.back-button {
+    padding: .5rem 1rem;
+    background: #0A6800;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: .1rem;
+    font-size: 1.08em;
+    font-family: 'Arial', serif;
+}
+.back-button:hover {
+    background: #108f02;
+}
+main section .back-button {
+    float: left; 
+    font-size: 15px;
+}
+
+.next-button {
+    padding: .5rem 1rem;
+    background: #0A6800;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: .1rem;
+    font-size: 1.08em;
+    font-family: 'Arial', serif;
+}
+.next-button:hover {
+    background: #108f02;
+}
+main section .next-button {
+    float: right; 
+    font-size: 15px;
+}
+main .wizard-three {
+
+}
 .content .main-content {
     width: 100%;
     float: left;
-
-
 }
 
 .content .main-content.single {

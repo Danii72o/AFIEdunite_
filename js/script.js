@@ -19,8 +19,13 @@ $(document).ready(function() {
         alert("Invalid email or password. Please try again.");
       }
     });
-    
   
+
+
+
+
+
+
     $(".post-wrapper").slick({
       slidesToShow: 3,
       slidesToScroll: 1,
