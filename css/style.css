@@ -438,8 +438,9 @@ main section .next-button {
     padding: 10px; 
 }
 .wizard-selection form button:hover {
-    color:rgb(50, 164, 1)
+    color:rgb(50, 164, 1);
 }
+
 main section {
     margin-top: 90px; 
 }
@@ -488,9 +489,17 @@ main section .next-button {
     float: right; 
     font-size: 15px;
 }
-main .wizard-three {
+
+/* Results Styling */
+article {
+    margin-left: 30px;
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight: lighter;
+    border: 1px solid red;
 
 }
+
 .content .main-content {
     width: 100%;
     float: left;
