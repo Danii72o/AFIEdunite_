@@ -499,6 +499,27 @@ article {
     border: 1px solid red;
 
 }
+article .logic-image {
+    margin-top: -230px;
+    margin-bottom: 260px;
+    margin-right: 260px;
+    height: 250px;
+    width: 250px;
+    float: right;
+    border: 1px solid red;
+}
+article .results-btn {
+    padding: .5rem 1rem;
+    background: #0A6800;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: .1rem;
+    font-size: .7em;
+    font-family: 'Arial', serif;
+}
+article .results-btn:hover {
+    background: #108f02;
+}
 
 .content .main-content {
     width: 100%;
